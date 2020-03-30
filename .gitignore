@@ -1,0 +1,5 @@
+# This OSX files will be ignored
+.DS_Store
+Thumbs.dk
+.cache
+wp-content/themes/neve-child/package-lock.json
