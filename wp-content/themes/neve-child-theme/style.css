@@ -12,3 +12,20 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  nevechild
 */
+
+/*font farve på overskrifterne*/
+h1,h2,h3,h4{
+    color: black;
+}
+
+/*font størrelse og farve på overskrifterne produkt på forsiden*/
+elementor-widget-heading .elementor-heading-title>a {
+    color: black;
+    font-size: 30px;
+}
+
+/*font farve section om kogle på forsiden*/
+.elementor-widget-text-editor {
+    color: black;
+    font-weight: 400;
+}
