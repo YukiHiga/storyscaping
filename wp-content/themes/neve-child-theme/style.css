@@ -29,3 +29,8 @@ elementor-widget-heading .elementor-heading-title>a {
     color: black;
     font-weight: 400;
 }
+
+/*baggrundsfarve på siden*/
+.body{
+    background-color: fffbf3;
+}
