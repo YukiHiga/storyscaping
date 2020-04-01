@@ -55,3 +55,17 @@ elementor-widget-heading .elementor-heading-title>a {
     color: black;
     font-size: 15px;
 }
+
+/*styling af copyright boksen i bunden af siden*/
+.footer--row-inner.dark-mode {
+    color: black;
+}
+
+.footer-bottom .dark-mode {
+    background: #f6f3e2;
+}
+
+
+
+
+
