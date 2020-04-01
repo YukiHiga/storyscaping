@@ -18,6 +18,7 @@ h1,h2,h3,h4{
     color: black;
 }
 
+/*FORSIDE STYLING*/
 /*font størrelse og farve på overskrifterne produkt på forsiden*/
 elementor-widget-heading .elementor-heading-title>a {
     color: black;
@@ -33,4 +34,24 @@ elementor-widget-heading .elementor-heading-title>a {
 /*baggrundsfarve på siden*/
 .body{
     background-color: fffbf3;
+}
+
+/*font farve og størelse på navbaren*/
+.builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a {
+    color: black;
+    font-size: 20px;
+}
+
+/*font farve og størelse på navbaren - menupunkter meed anker på forsiden*/
+.builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li.current-menu-item > a {
+    color: black;
+    font-size: 20px;
+}
+
+/*styling af boksen OM KOGLE font farve og font størelse*/
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: black;
+    font-size: 15px;
 }
