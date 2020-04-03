@@ -45,11 +45,7 @@ function newsletter_form()
 #Linker stylesheets og script filer
     function register_styles_and_scripts_for_plugin() 
     {
-        wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-        
-        wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap');
-        
-        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
         
         wp_enqueue_style('CustomStylesheet', plugins_url('newsletter-popup/css/style.css'));
         
