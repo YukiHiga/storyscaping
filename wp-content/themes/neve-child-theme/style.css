@@ -65,7 +65,28 @@ elementor-widget-heading .elementor-heading-title>a {
     background: #f6f3e2;
 }
 
+/*styling af undersiden Angry toes.. font farve*/
+element.style {
+    font-weight: 400;
+    color: #1e1e1e;
+    : ;
+}
 
+/*styling af undersiden Angry toes.. font farve på p tags*/
+p {
+    margin-bottom: 20px;
+    color: #1e1e1e;
+}
 
+/*styling af undersiden produktion.. font farve på h tags*/
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    color: #1e1e1e;
+}
 
-
+/*styling af undersiden produktion.. font farve på p tags*/
+p {
+    margin-bottom: 20px;
+    color: #1e1e1e;
+}
