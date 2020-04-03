@@ -42,4 +42,21 @@ function newsletter_form()
     #Action udfører wp_enqueue_scripts med funktionen register_styles_and_scripts_for_responsive_discount_popup_plugin, så det kan aktiveres
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
 
+#Linker stylesheets og script filer
+    function register_styles_and_scripts_for_plugin() 
+    {
+        wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+        
+        wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap');
+        
+        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+        
+        wp_enqueue_style('CustomStylesheet', plugins_url('newsletter-popup/css/style.css'));
+        
+        wp_deregister_script('jquery');
+        
+        wp_enqueue_script('jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
+        
+        wp_enqueue_script('CustomScript', plugins_url('newsletter-popup/js/script.js'), array('jquery'), null, true);
+    }
 ?>
