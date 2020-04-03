@@ -45,7 +45,6 @@ function newsletter_form()
 #Linker stylesheets og script filer
     function register_styles_and_scripts_for_plugin() 
     {
-
         
         wp_enqueue_style('CustomStylesheet', plugins_url('newsletter-popup/css/style.css'));
         
