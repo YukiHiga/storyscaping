@@ -132,8 +132,8 @@ div#submitForm {
 
 .popupCloseButton {
     cursor: pointer;
-    display: inline-block !important;
-    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    font-family: 'helvetica', sans-serif;
     font-weight: bold;
     position: absolute;
     left: 450px;
