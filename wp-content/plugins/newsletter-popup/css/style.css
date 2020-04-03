@@ -41,14 +41,15 @@ body
     float: right;
     left: 15px;
     
-    
 }
+
+/* ændring af farven på input feltet*/
 
 input[type="text"],
 input[type="email"]
 {
     border: none;
-    background-color: #EFEDED;
+    background-color: #ebf2d5;
     border-radius: 10px;
     font-family: 'Helvetica', sans-serif;
 }
@@ -56,9 +57,10 @@ input[type="email"]
 input[type="text"]:focus,
 input[type="email"]:focus
 {
-    border: 2px solid #0AC986;
+    border: 2px solid #ebf2d5;
 }
 
+/* ændring af farven på submit knappen*/
 input[type="submit"]
 {
     width: 100%;
@@ -78,10 +80,10 @@ input[type="submit"] {
 	padding: 0 1em;
 
 }
-
+/* ændring af opacitet når man hover*/
 input[type="submit"]:hover
 {
-    opacity: 0.9;
+    opacity: 1.0;
 }
 
 div#submitForm {
@@ -192,20 +194,15 @@ div#submitForm {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: grey;
+  color: #1e1e1e;
 }
 
 ::placeholder { /* Firefox, Chrome, Opera */ 
-    color: grey; 
+    color: #1e1e1e; 
 } 
   
-:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
-    color: grey;  
-} 
   
-::-ms-input-placeholder { /* Microsoft Edge */ 
-    color: grey;  
-} 
