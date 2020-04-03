@@ -42,6 +42,11 @@ elementor-widget-heading .elementor-heading-title>a {
     font-size: 20px;
 }
 
+/*styling af burger menu - farven #1e1e1e*/
+.light-mode .navbar-toggle {
+    color: #1e1e1e;
+}
+
 /*font farve og størelse på navbaren - menupunkter meed anker på forsiden*/
 .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li.current-menu-item > a {
     color: black;
