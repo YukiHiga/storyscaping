@@ -1,9 +1,9 @@
-<?php 
+<?php
 /*
 * Plugin Name: Newsletter popup plugin
 * Plugin URI: https://yukihigashidani.dk/storyscaping/
 * Description: This is a Newsletter popup Plugin based on HTML5, CSS, JS and PHP
-* Version: 0.0.1
+* Version: 1.9.0
 * Author: Yuki Higashidani & Mette Ann Hansen
 * Author: https://yukihigashidani.dk/storyscaping/
 * License: GPL2
@@ -39,10 +39,10 @@ function newsletter_form()
     #Første parameter er et unikt navn for short-code for newsletter popup. Den anden parameter er navnet på funktionen - newsletter_form
     add_shortcode('show_popup_newsletter','newsletter_form');
 
-    #Action udfører wp_enqueue_scripts med funktionen register_styles_and_scripts_for_newsletter_popup_plugin, så det kan aktiveres
+   #Action udfører wp_enqueue_scripts med funktionen register_styles_and_scripts_for_newsletter_popup_plugin, så det kan aktiveres
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
 
-#Linker stylesheets og script filer
+    #Linker stylesheets og script filer
     function register_styles_and_scripts_for_plugin() 
     {
         
@@ -54,4 +54,9 @@ function newsletter_form()
         
         wp_enqueue_script('CustomScript', plugins_url('newsletter-popup/js/script.js'), array('jquery'), null, true);
     }
+
+
 ?>
+
+
+

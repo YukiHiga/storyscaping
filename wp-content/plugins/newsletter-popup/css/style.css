@@ -5,12 +5,13 @@ body
     background: #333;
 }
 
+/* popup containter */
 .login-form {
     width: 500px;
     height: 350px;
     position: fixed;
     padding: 10px 10px;
-    background: #FFFDF4;
+    background: #FFFDF4 !important;
     left: 60%;
     top: 22%;
     transform: translateX(-50%) translateY(-50%);
@@ -41,54 +42,55 @@ body
     float: right;
     left: 15px;
     
+    
 }
 
-/* ændring af farven på input feltet*/
-
+/* Email input tekst */
 input[type="text"],
 input[type="email"]
 {
-    border: none;
-    background-color: #ebf2d5;
-    border-radius: 10px;
-    font-family: 'Helvetica', sans-serif;
+    border: none !important;
+    background-color: #EBF2D5 !important;
+    border-radius: 0px !important;
+    font-family: 'Helvetica', sans-serif !important;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus
 {
-    border: 2px solid #ebf2d5;
+    border: 2px solid #D1E4BC !important;
 }
 
-/* ændring af farven på submit knappen*/
+/* Tilmeld knappen*/
 input[type="submit"]
 {
     width: 100%;
     margin-top: -100px;
-    background: none;
-    color: #274A33;
-    font-family: 'Helvetica', sans-serif;
-    font-size: large;
+    background: none !important;
+    color: #274A33 !important;
+    font-family: 'Helvetica' , sans-serif;
+    font-size: large !important;
     text-decoration: underline;
     border-radius: 12px;
 }
 
-
 button,
 input[type="button"],
 input[type="submit"] {
-	padding: 0 1em;
+	padding: 0 1em !important;
 
 }
-/* ændring af opacitet når man hover*/
+
+
+/* Tilmeld knappen hover effekt*/
 input[type="submit"]:hover
 {
-    opacity: 1.0;
+    opacity: 0.6 !important;
 }
 
 div#submitForm {
-    position: relative;
-    top: 75px;
+    position: relative !important;
+    top: 75px !important;
 }
 
 
@@ -132,10 +134,11 @@ div#submitForm {
     text-align: center;
 }
 
+/* Lukkeknappen */
 .popupCloseButton {
     cursor: pointer;
-    display: inline-block;
-    font-family: 'helvetica', sans-serif;
+    display: inline-block !important;
+    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     position: absolute;
     left: 450px;
@@ -146,6 +149,7 @@ div#submitForm {
     text-align: center;
 }
 
+/* Fejl tekst */
 .error-msg 
 {
     position: relative;
@@ -158,6 +162,7 @@ div#submitForm {
     display: none;
 }
 
+/* Popup container animation */
 .login-form {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -194,15 +199,13 @@ div#submitForm {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #1e1e1e;
+  color: grey;
 }
 
 ::placeholder { /* Firefox, Chrome, Opera */ 
-    color: #1e1e1e; 
+    color: grey !important; 
 } 
-  
   
